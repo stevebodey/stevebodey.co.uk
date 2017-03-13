@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="robots" content="noindex" />
+
+    <title>C. W. Lyons & Son | Steve Bodey</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poppins:400,700|Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="logo">
+			<a href="http://www.stevebodey.co.uk"><img class="img-responsive" src="img/steve-bodey.png" alt="Steve Bodey"></a>
+		</div>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://www.stevebodey.co.uk">Work</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+			<div class="contact-header">
+				<ul>
+					<li><a href="mailto:sgbodeyx@btxinternet.com" onmouseover="this.href=this.href.replace(/x/g,'');"><span class="reverse">moc.tenretnitb@yedobgs</span></a></li>
+					<li>07921 075 334</li>
+				</ul>
+			</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<a href="eco-range-cooker-company.html" class="left-arrow"><span><</span></a>
+	<a href="tri-state-clothing.html" class="right-arrow"><span>></span></a>
+
+    <!-- Page Content -->
+    <div class="container main" id="top">
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/cw-lyons-monitor.jpg" alt="C.W. Lyons & Son">
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/cw-lyons-screenshot.jpg" alt="C.W. Lyons & Son">
+            </div>
+        </div>
+        <!-- /.row -->
+		<div class="row">
+			<div class="col-lg-12-content">
+				<h1>C.W. Lyons & Son</h1>
+				<p>C. W. Lyons & Son is a family owned funeral directors located in Canterbury and Whitstable. In the changing face of technology and devices that are used online, the client felt that their current site would benefit from a redesign to make it more accessible. This mainly focussed on the introduction of a responsive design, but also on the structure of their page navigation.</p>				
+				<p>Working alongside their existing marketing agency, the client decided that their new design should be uplifting and calming, using large imagery with a hint of magenta taken from their current website.</p>
+				<p class="dark-grey">The website is currently in development with the marketing company.</p>
+				<img class="img-responsive first" src="img/cw-lyons-homepage.jpg" alt="C.W. Lyons & Son Homepage">
+				<img class="img-responsive" src="img/cw-lyons-internal-page.jpg" alt="C.W. Lyons & Son Internal Page">
+			</div>
+		</div>
+    </div>
+    <!-- /.container -->
+  
+	<div class="top-link-outer">
+		<a class="page-top-link" href="#top" >
+			<img src="img/to-top.png" alt="Top of page"></img>
+		</a>
+	</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+				|| location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				   if (target.length) {
+					 $('html,body').animate({
+						 scrollTop: target.offset().top - $('.navbar-fixed-top').outerHeight()
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	</script>
+
+</body>
+
+</html>

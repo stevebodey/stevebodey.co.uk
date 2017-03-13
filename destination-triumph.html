@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Destination Triumph | Steve Bodey</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poppins:400,700|Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="logo">
+			<a href="http://www.stevebodey.co.uk"><img class="img-responsive" src="img/steve-bodey.png" alt="Steve Bodey"></a>
+		</div>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://www.stevebodey.co.uk">Work</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+			<div class="contact-header">
+				<ul>
+					<li><a href="mailto:sgbodeyx@btxinternet.com" onmouseover="this.href=this.href.replace(/x/g,'');"><span class="reverse">moc.tenretnitb@yedobgs</span></a></li>
+					<li>07921 075 334</li>
+				</ul>
+			</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<a href="haynes-group.html" class="left-arrow"><span><</span></a>
+	<a href="goody-demolition.html" class="right-arrow"><span>></span></a>
+
+    <!-- Page Content -->
+    <div class="container main" id="top">
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/destination-triumph-monitor.jpg" alt="Destination Triumph">
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/destination-triumph-screenshot.jpg" alt="Destination Triumph">
+            </div>
+        </div>
+        <!-- /.row -->
+		<div class="row">
+			<div class="col-lg-12-content">
+				<h1>Destination Triumph</h1>
+				<p>Destination Triumph is a group of three separate Triumph Motorcycles dealer locations based in the south of England. Having recently acquired their third location, the group wanted to develop a new website to offer new and used motorcycles to their customer base whilst also offering information on parts/servicing and location details.</p>
+				<p>The brief was to create an eye-catching design based around the brand guidelines and corporate colours of the Triumph Motorcycle Company. As the site was to be quite extensive, emphasis was placed on clear and intuitive navigation. Also, much thought was given on how to present the detailed information presented in the used motorcycle section.</p>
+				<p>The design was created while working for GForces Web Management and the website was powered by their industry leading NetDirector software.</p>
+				<img class="img-responsive first" src="img/destination-triumph-homepage.jpg" alt="Destination Triumph Homepage">
+				<img class="img-responsive" src="img/destination-triumph-new-bike.jpg" alt="Destination Triumph New Motorcycle Page">
+				<img class="img-responsive" src="img/destination-triumph-used-listing.jpg" alt="Destination Triumph Used Motorcycle Listing Page">
+				<img class="img-responsive" src="img/destination-triumph-used-detail.jpg" alt="Destination Triumph Used Motorcycle Detail Page">
+				<img class="img-responsive" src="img/destination-triumph-locations-page.jpg" alt="Destination Triumph Locations Page">
+			</div>
+		</div>
+    </div>
+    <!-- /.container -->
+  
+	<div class="top-link-outer">
+		<a class="page-top-link" href="#top" >
+			<img src="img/to-top.png" alt="Top of page"></img>
+		</a>
+	</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+				|| location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				   if (target.length) {
+					 $('html,body').animate({
+						 scrollTop: target.offset().top - $('.navbar-fixed-top').outerHeight()
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	</script>
+
+</body>
+
+</html>
